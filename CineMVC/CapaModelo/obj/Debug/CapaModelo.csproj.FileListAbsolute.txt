@@ -1,0 +1,9 @@
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\bin\Debug\System.Data.Odbc.dll
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\bin\Debug\System.Data.Odbc.xml
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\obj\Debug\CapaModelo.csproj.CopyComplete
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\ZUZU\source\repos\CineMVC\CapaModelo\obj\Debug\CapaModelo.pdb
