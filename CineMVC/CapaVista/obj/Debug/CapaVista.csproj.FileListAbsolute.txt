@@ -18,7 +18,6 @@ C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\CapaControlado
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\CapaModelo.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\CapaControladorSeguridadHSC.dll
-C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\DLLnav.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\Bitacora.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\VistaBitacoraLogin.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\bin\Debug\CapaModeloSeguridadHSC.dll
@@ -63,3 +62,9 @@ C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.cspr
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.dll
 C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.pdb
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Peliculas.resources
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Cines.resources
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Salas.resources
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Horarios.resources
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Clientes.resources
+C:\Users\ZUZU\Desktop\Segundo Parcial\CineMVC\CapaVista\obj\Debug\CapaVista.Asientos.resources

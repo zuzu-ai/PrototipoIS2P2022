@@ -35,18 +35,13 @@ namespace CapaVista
 			this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.catalogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.peliculasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.cinesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.salasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.horariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.derechosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.asientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.reservarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.puntosDeClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,93 +90,63 @@ namespace CapaVista
 			// catalogosToolStripMenuItem
 			// 
 			this.catalogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usuariosToolStripMenuItem,
             this.peliculasToolStripMenuItem,
             this.cinesToolStripMenuItem,
             this.salasToolStripMenuItem,
             this.horariosToolStripMenuItem,
-            this.derechosToolStripMenuItem,
             this.clientesToolStripMenuItem,
             this.asientosToolStripMenuItem});
 			this.catalogosToolStripMenuItem.Name = "catalogosToolStripMenuItem";
 			this.catalogosToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
 			this.catalogosToolStripMenuItem.Text = "Catalogos";
 			// 
-			// usuariosToolStripMenuItem
-			// 
-			this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-			this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-			this.usuariosToolStripMenuItem.Text = "Usuarios";
-			// 
 			// peliculasToolStripMenuItem
 			// 
 			this.peliculasToolStripMenuItem.Name = "peliculasToolStripMenuItem";
-			this.peliculasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.peliculasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.peliculasToolStripMenuItem.Text = "Peliculas";
+			this.peliculasToolStripMenuItem.Click += new System.EventHandler(this.peliculasToolStripMenuItem_Click);
 			// 
 			// cinesToolStripMenuItem
 			// 
 			this.cinesToolStripMenuItem.Name = "cinesToolStripMenuItem";
-			this.cinesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.cinesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.cinesToolStripMenuItem.Text = "Cines";
+			this.cinesToolStripMenuItem.Click += new System.EventHandler(this.cinesToolStripMenuItem_Click);
 			// 
 			// salasToolStripMenuItem
 			// 
 			this.salasToolStripMenuItem.Name = "salasToolStripMenuItem";
-			this.salasToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.salasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.salasToolStripMenuItem.Text = "Salas";
+			this.salasToolStripMenuItem.Click += new System.EventHandler(this.salasToolStripMenuItem_Click);
 			// 
 			// horariosToolStripMenuItem
 			// 
 			this.horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
-			this.horariosToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.horariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.horariosToolStripMenuItem.Text = "Horarios";
-			// 
-			// derechosToolStripMenuItem
-			// 
-			this.derechosToolStripMenuItem.Name = "derechosToolStripMenuItem";
-			this.derechosToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-			this.derechosToolStripMenuItem.Text = "Derechos";
+			this.horariosToolStripMenuItem.Click += new System.EventHandler(this.horariosToolStripMenuItem_Click);
 			// 
 			// clientesToolStripMenuItem
 			// 
 			this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-			this.clientesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.clientesToolStripMenuItem.Text = "Clientes";
+			this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
 			// 
 			// asientosToolStripMenuItem
 			// 
 			this.asientosToolStripMenuItem.Name = "asientosToolStripMenuItem";
-			this.asientosToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+			this.asientosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.asientosToolStripMenuItem.Text = "Asientos";
+			this.asientosToolStripMenuItem.Click += new System.EventHandler(this.asientosToolStripMenuItem_Click);
 			// 
 			// procesosToolStripMenuItem
 			// 
-			this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.facturaToolStripMenuItem,
-            this.reservarToolStripMenuItem,
-            this.puntosDeClienteToolStripMenuItem});
 			this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
 			this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
 			this.procesosToolStripMenuItem.Text = "Procesos";
-			// 
-			// facturaToolStripMenuItem
-			// 
-			this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
-			this.facturaToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-			this.facturaToolStripMenuItem.Text = "Facturar";
-			// 
-			// reservarToolStripMenuItem
-			// 
-			this.reservarToolStripMenuItem.Name = "reservarToolStripMenuItem";
-			this.reservarToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-			this.reservarToolStripMenuItem.Text = "Reservar";
-			// 
-			// puntosDeClienteToolStripMenuItem
-			// 
-			this.puntosDeClienteToolStripMenuItem.Name = "puntosDeClienteToolStripMenuItem";
-			this.puntosDeClienteToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-			this.puntosDeClienteToolStripMenuItem.Text = "Puntos de Cliente";
 			// 
 			// informesToolStripMenuItem
 			// 
@@ -223,7 +188,7 @@ namespace CapaVista
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MDICine";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Cine";
+			this.Text = "Cine -- Heydi Quemé -- 9959-18-5335";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.Load += new System.EventHandler(this.MDICine_Load);
 			this.menuStrip1.ResumeLayout(false);
@@ -240,21 +205,16 @@ namespace CapaVista
 		private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem catalogosToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem peliculasToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem cinesToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem salasToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem horariosToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem derechosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem asientosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem facturaToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem reservarToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem puntosDeClienteToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
 		private System.Windows.Forms.TextBox txtUsuario;
+		private System.Windows.Forms.ToolStripMenuItem horariosToolStripMenuItem;
 	}
 }

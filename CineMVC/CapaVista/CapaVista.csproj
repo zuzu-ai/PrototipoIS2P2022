@@ -34,6 +34,10 @@
     <Reference Include="CapaVistaSeguridadHSC">
       <HintPath>..\..\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll</HintPath>
     </Reference>
+    <Reference Include="DLLnav, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DLLnav.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -46,17 +50,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asientos.Designer.cs">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cines.Designer.cs">
+      <DependentUpon>Cines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Horarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Horarios.Designer.cs">
+      <DependentUpon>Horarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDICine.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MDICine.Designer.cs">
       <DependentUpon>MDICine.cs</DependentUpon>
     </Compile>
+    <Compile Include="Peliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peliculas.Designer.cs">
+      <DependentUpon>Peliculas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Salas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salas.Designer.cs">
+      <DependentUpon>Salas.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -66,12 +106,30 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Asientos.resx">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cines.resx">
+      <DependentUpon>Cines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Horarios.resx">
+      <DependentUpon>Horarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDICine.resx">
       <DependentUpon>MDICine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peliculas.resx">
+      <DependentUpon>Peliculas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salas.resx">
+      <DependentUpon>Salas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
